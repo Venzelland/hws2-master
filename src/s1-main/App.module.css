@@ -1,11 +1,22 @@
 .App {
     --header_height: 60px;
+    width: 1280px;
+    height: 373px;
+    font-family: Montserrat, serif;
 }
 
 .hw {
-
+    /*background-color: red;*/
+    border: #D9D9D9 1px solid;
 }
 
 .hwTitle {
+    font-family: Montserrat, serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 10px 10px 10px 70px;
 
 }

@@ -2,9 +2,11 @@
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+    margin-left: 70px;
 }
 
 .all {
+
     --color: #06c;
 }
 
@@ -52,4 +54,5 @@
     gap: 17px;
     flex-wrap: wrap;
     max-width: 450px;
+    margin-left: 70px;
 }

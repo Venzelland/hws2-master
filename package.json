@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "http://Venzelland.github.io/hws2-master/",
+  "homepage": "https://Venzelland.github.io/hws2-master",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

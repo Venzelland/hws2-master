@@ -13,7 +13,7 @@ export const pureAddUser = (
     setName: React.Dispatch<React.SetStateAction<string>>,
     addUserCallback: (name: string) => void) => {
     if (name.trim() === '') {
-        setError('Введите имя')
+        setError('Ошибка! Введите имя!')
     } else {
         addUserCallback(name)
         setName('')
@@ -23,7 +23,7 @@ export const pureAddUser = (
 
 export const pureOnBlur = (name: string, setError: React.Dispatch<React.SetStateAction<string>>) => {
     if (name.trim() === '') {
-        setError('Введите имя')
+        setError('Ошибка! Введите имя!')
     }// если имя пустое - показать ошибку!
 }
 

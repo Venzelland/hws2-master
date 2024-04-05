@@ -27,6 +27,10 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        const isChecked = e.target.checked; // Получаем текущее состояние флажка (отмечен/не отмечен)
+        onChange?.(e); // Передаем событие внешнему обработчику, если он определен
+        onChangeChecked?.(isChecked); // Вызываем onChangeChecked и передаем ему актуальное значение флажка
+
         // задачка на написание онченджа
 
     }

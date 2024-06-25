@@ -16,15 +16,15 @@
 }
 
 .secondary {
-    background: white;
+    background-color: white;
     border: 1px solid #0066CC;
-    width: 176px;
     color: #0066CC;
 }
 
 .default {
     background: #0066CC;
     border: #0066CCFF;
+
 }
 
 .red {
@@ -33,8 +33,8 @@
 }
 
 .default:hover {
-    background: rgba(0, 128, 255, 1);
-    width: 167px;
+    /*background: rgba(0, 128, 255, 1);*/
+    /*width: 167px;*/
 }
 
 .red:hover {
@@ -43,19 +43,19 @@
 }
 
 .secondary:hover {
-    background: rgba(229, 240, 250, 1);
-    width: 167px;
+    /*background: rgba(229, 240, 250, 1);*/
+    /*width: 167px;*/
 }
 
 
 .default:active {
-    background: rgba(0, 89, 178, 1);
-    width: 149px;
+    /*background: rgba(0, 89, 178, 1);*/
+    /*width: 149px;*/
 }
 
 .secondary:active {
-    background: rgba(201, 229, 255, 1);
-    width: 149px;
+    /*background: rgba(201, 229, 255, 1);*/
+    /*width: 149px;*/
 }
 
 .red:active {

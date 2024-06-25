@@ -1,11 +1,22 @@
 .spanBlock {
-}
-
-.span {
+    position: relative; /* Относительное позиционирование для родителя */
+    display: inline-block; /* Чтобы родительский элемент занимал только необходимое место */
 }
 
 .input {
+    position: relative; /* Абсолютное позиционирование для инпута */
+    top: 0;
+    left: -70px;
+    max-width: 276PX;
+}
+
+.span {
+    display: inline-block; /* Чтобы спан занимал только необходимое место */
+    color: rgba(0, 128, 255, 1);
+
 }
 
 .pen {
+    margin-right: 8px; /* Стили для иконки */
+    vertical-align: middle; /* Вертикальное выравнивание иконки */
 }

@@ -1,4 +1,10 @@
 .select {
+    width: 165px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    height: 26px;
 }
 
 .select:focus {

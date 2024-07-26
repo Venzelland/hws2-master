@@ -1,23 +1,77 @@
-.item {
-}
-
-.item:last-of-type {
-}
-
-.users {
+.container {
+    height: 100%;
+    width: 606px;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
-.container {
+.users {
+    width: 100%;
+    border-collapse: collapse;
+
 }
 
 .thead {
+    background-color: rgba(229, 229, 229, 1);
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-weight: 600; /* Жирный шрифт для заголовков */
 }
 
 .nameCol {
+    width: 50%;
+    padding: 17px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300; /* Легкий шрифт для строк */
+}
+
+.nameCol:last-child {
+    border-bottom: none;
+
 }
 
 .ageCol {
+    width: 100%;
+    text-align: left;
+}
+
+.item {
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    /*font-weight: 500; !* Легкий шрифт для строк *!*/
+    /*padding-left: 17px;*/
+}
+
+
+.item:last-of-type {
+    border-bottom: none;
+}
+
+
+
+/* Дополнительные стили для заголовков */
+.thead .nameCol,
+.thead .ageCol {
+    font-weight: 600; /* Жирный шрифт для заголовков */
+    padding: 8px 17px 8px 17px;
+}
+
+tr > td {
+    padding-left: 17px;
+    font-weight: 500; /* Легкий шрифт для строк */
+
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
 }

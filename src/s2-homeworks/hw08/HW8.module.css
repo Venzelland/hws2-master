@@ -68,7 +68,7 @@
 }
 
 tr > td {
-    padding-left: 17px;
+    padding-left: 17px; 
     font-weight: 500; /* Легкий шрифт для строк */
 
     text-align: left;
